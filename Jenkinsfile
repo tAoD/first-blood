@@ -1,5 +1,5 @@
 podTemplate(label: 'mypod', containers: [
-    containerTemplate(name: 'alpine', image: 'alpine:3.6', ttyEnabled: true, command: 'cat')
+    containerTemplate(name: 'alpine', image: 'alpine:3.6', ttyEnabled: true, command: 'cat', args: '')
   ]) {
 
     node('mypod') {
