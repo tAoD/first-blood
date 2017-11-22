@@ -1,5 +1,5 @@
 podTemplate(label: 'mypod', containers: [
-    containerTemplate(name: 'alpine', image: 'alpine:3.6', ttyEnabled: true, command: 'cat', args: '')
+    containerTemplate(name: 'alpine', image: 'alpine:3.6', ttyEnabled: true, command: 'cat')
   ]) {
 
     node('mypod') {
@@ -8,7 +8,7 @@ podTemplate(label: 'mypod', containers: [
             container('alpine') {
                 stage('Build a Java project') {
                     sh """
-                    cat LICENSE
+                    echo LICENSE
                     """
                 }
             }
