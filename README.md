@@ -2,4 +2,4 @@
 
 Demo project that use with jenkins and kubernetes.
 
-More information.
+More information. Try github pull request builder.
