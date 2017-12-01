@@ -10,8 +10,8 @@ More information. Try github pull request builder.
 
 Depends on plugins:
 
-- [Kubernetes plugin][https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin]
-- [GitHub Pull Request Builder][https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin]
+- [Kubernetes plugin](https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin)
+- [GitHub Pull Request Builder](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin)
 
 Please check them at `Manage` --> `Plugin Manager`.
 
@@ -28,7 +28,7 @@ After Kubernetes plugin installed, go to `Manage Jenkins` -> `Configure System` 
 
 Go to `Manage Jenkins` -> `Configure System` -> `GitHub Pull Request Builder` section. 
 
-Read [more][https://github.com/jenkinsci/ghprb-plugin] for what you need.
+Read [more](https://github.com/jenkinsci/ghprb-plugin) for what you need.
 
 ## Config kubernetes slave config
 
