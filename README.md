@@ -57,3 +57,17 @@ podTemplate(label: 'mypod', containers: [
 ```
 
 Go home, byebye.
+
+## Jenkins project config
+
+- Create a new project if required.
+- Setup CVS with `Git`
+- Checked `GitHub Pull Request Builder` in `Build Phase` section
+- Checked `Use github hooks for build triggering`
+- Complete `Trigger phrase` if interested, ep. `(/run\w+/)?tests?`
+- Checked `GitHub Pull Request Merger`
+    - `Only Admin can merge code`
+    - `Fail the build if the Pull Request can't be merged?`
+    - `Delete the branch after successful merge?`
+    - `Allow merge without trigger phrase?` if `Build every pull request automatically without asking (Dangerous!).` checked in `GitHub Pull Request Builder`
+    
