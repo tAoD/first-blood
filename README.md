@@ -64,7 +64,7 @@ Go home, byebye.
 - Setup CVS with `Git`
 - Checked `GitHub Pull Request Builder` in `Build Phase` section
 - Checked `Use github hooks for build triggering`
-- Complete `Trigger phrase` if interested, ep. `(/run\w+/)?tests?`
+- Complete `Trigger phrase` if interested, ep. `(/run\w+|/)?tests?`
 - Checked `GitHub Pull Request Merger`
     - `Only Admin can merge code`
     - `Fail the build if the Pull Request can't be merged?`
